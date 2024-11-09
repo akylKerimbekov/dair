@@ -24,6 +24,20 @@ layout: home
   </div>
 </div>
 
+<div class="container">
+  <h1 id="headline">Необходимая для лечения сумма:</h1>
+  <ul id="fund">
+    <li><span id="collected">17 237 300</span> KGS</li>
+  </ul>
+  <h1 id="headline">Собранная сумма:</h1>
+  <ul id="fund">
+    <li><span id="target">436 000</span> KGS</li>
+  </ul>
+  <div id="content" style="display: none;">
+    <p>Целевая сумма достигнута!</p>
+  </div>
+</div>
+
 
 <!-- Подключение стилей и скриптов -->
 <link rel="stylesheet" href="{{ '/assets/css/countdown.css' | relative_url }}">
